@@ -27,26 +27,3 @@ def main():
     
     # 变量作用域演示
     outer_var = "外部变量"
-    
-    def inner_function():
-        inner_var = "内部变量"
-        # 调试提示: 在这里设置断点，观察可以访问哪些变量
-        print(f"内部函数可以访问外部变量: {outer_var}")
-        print(f"内部函数定义的变量: {inner_var}")
-        return inner_var
-    
-    result = inner_function()
-    # 调试提示: 在这里设置断点，观察result的值，但inner_var不可访问
-    print(f"函数返回值: {result}")
-    
-    # 调试技巧: 尝试在调试时修改变量值
-    counter = 0
-    for i in range(5):
-        # 调试提示: 在循环内设置断点，然后在调试控制台修改i或counter的值
-        counter += i
-        print(f"循环 {i}: counter = {counter}")
-
-if __name__ == "__main__":
-    # 调试提示: 按F5开始调试，F9设置断点，F10单步执行，F11进入函数
-    main()
-    print("程序执行完毕，尝试使用不同的断点和调试命令来观察变量变化。")

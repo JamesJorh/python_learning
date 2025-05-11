@@ -28,21 +28,3 @@ def main():
     second_number = 5
     
     # 调试提示: 在下面几行设置断点，然后按F5开始调试
-    sum_result = calculate_sum(first_number, second_number)
-    print(f"{first_number} + {second_number} = {sum_result}")
-    
-    product_result = calculate_product(first_number, second_number)
-    print(f"{first_number} × {second_number} = {product_result}")
-    
-    # 尝试修改变量值
-    # 调试提示: 在这里设置断点，然后在调试时尝试修改变量值
-    for i in range(1, 5):
-        print(f"循环 {i}: {first_number} + {i} = {first_number + i}")
-    
-    print("\n恭喜！您已完成基本调试流程的学习。")
-    print("接下来，您可以探索项目中的其他示例来学习更多调试技巧。")
-
-if __name__ == "__main__":
-    # 调试提示: 按F5开始调试，F9设置/取消断点
-    main()
-    print("\n程序执行完毕。尝试重新运行并使用不同的断点位置来熟悉调试过程。")
