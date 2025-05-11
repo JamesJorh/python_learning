@@ -28,7 +28,7 @@
 
 ## VSCode调试快捷键
 
-- F5: 开始/继续调试
+- F4: 开始/继续调试
 - F10: 单步跳过（Step Over）
 - F11: 单步进入（Step Into）
 - Shift+F11: 单步跳出（Step Out）
